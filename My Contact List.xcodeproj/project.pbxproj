@@ -16,6 +16,9 @@
 		BF6126FA261E1B0E00FA7689 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6126F9261E1B0E00FA7689 /* MapViewController.swift */; };
 		BF6126FD261E1B3000FA7689 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6126FC261E1B3000FA7689 /* SettingsViewController.swift */; };
 		BF612705261E2B0600FA7689 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF612704261E2B0100FA7689 /* ViewController.swift */; };
+		BFB2A793262733260039A716 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB2A792262733260039A716 /* Constants.swift */; };
+		BFB2A797262744D30039A716 /* MyContactListModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFB2A795262744D30039A716 /* MyContactListModel.xcdatamodeld */; };
+		BFFBBEB126278A3D0048EA1B /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFBBEB026278A3D0048EA1B /* DateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		BF6126F9261E1B0E00FA7689 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		BF6126FC261E1B3000FA7689 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BF612704261E2B0100FA7689 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFB2A792262733260039A716 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BFB2A796262744D30039A716 /* MyContactListModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyContactListModel.xcdatamodel; sourceTree = "<group>"; };
+		BFFBBEB026278A3D0048EA1B /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +69,12 @@
 			isa = PBXGroup;
 			children = (
 				BF6126D5261DE6B300FA7689 /* AppDelegate.swift */,
+				BFB2A795262744D30039A716 /* MyContactListModel.xcdatamodeld */,
 				BF6126D7261DE6B300FA7689 /* SceneDelegate.swift */,
 				BF612704261E2B0100FA7689 /* ViewController.swift */,
 				BF6126DB261DE6B300FA7689 /* Main.storyboard */,
+				BFFBBEB026278A3D0048EA1B /* DateViewController.swift */,
+				BFB2A792262733260039A716 /* Constants.swift */,
 				BF6126E0261DE6B600FA7689 /* LaunchScreen.storyboard */,
 				BF6126E3261DE6B600FA7689 /* Info.plist */,
 				BF6126F3261E1AEC00FA7689 /* ContactsViewController.swift */,
@@ -150,7 +159,10 @@
 				BF6126D6261DE6B300FA7689 /* AppDelegate.swift in Sources */,
 				BF6126FA261E1B0E00FA7689 /* MapViewController.swift in Sources */,
 				BF612705261E2B0600FA7689 /* ViewController.swift in Sources */,
+				BFB2A793262733260039A716 /* Constants.swift in Sources */,
 				BF6126D8261DE6B300FA7689 /* SceneDelegate.swift in Sources */,
+				BFB2A797262744D30039A716 /* MyContactListModel.xcdatamodeld in Sources */,
+				BFFBBEB126278A3D0048EA1B /* DateViewController.swift in Sources */,
 				BF6126FD261E1B3000FA7689 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +365,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFB2A795262744D30039A716 /* MyContactListModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFB2A796262744D30039A716 /* MyContactListModel.xcdatamodel */,
+			);
+			currentVersion = BFB2A796262744D30039A716 /* MyContactListModel.xcdatamodel */;
+			path = MyContactListModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BF6126CA261DE6B300FA7689 /* Project object */;
 }
